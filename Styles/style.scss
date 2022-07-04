@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&family=Commissioner:wght@400;500;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@600;800&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&family=Raleway&family=Space+Mono:wght@400;700&display=swap');
+@import "container";
+@import "header";
+@import "main-top";
+@import "main-content-bottom";
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+  background-image: url(../images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: 0 -10em;
+}

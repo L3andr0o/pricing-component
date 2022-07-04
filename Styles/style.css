@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&family=Commissioner:wght@400;500;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@600;800&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&family=Raleway&family=Space+Mono:wght@400;700&display=swap");
+.container {
+  margin: 2em auto;
+  width: 88%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 1px 5px #cdd7ee;
+          box-shadow: 2px 1px 5px #cdd7ee;
+  border-radius: 8px;
+  padding: 20px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 330px;
+}
+
+.header {
+  margin: 2em auto;
+  text-align: center;
+  background-image: url(../images/pattern-circles.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 7em;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 16px;
+  color: #293356;
+}
+
+.header p {
+  font-size: 11px;
+  color: #858fad;
+  margin-top: 6px;
+}
+
+.main-content-top {
+  height: 12em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.main-content-top h2 {
+  font-size: 12px;
+  color: #858fad;
+  font-weight: 500;
+}
+
+.main-content-top .range {
+  width: 100%;
+}
+
+.main-content-top .range input {
+  width: 100%;
+  position: relative;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+.main-content-top .range input::-webkit-slider-runnable-track {
+  background-color: #cdd7ee;
+  border-radius: 15px;
+  height: 6px;
+  position: relative;
+}
+
+.main-content-top .range input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -15px;
+  width: 35px;
+  background-image: url(../images/icon-slider.svg);
+  height: 35px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px 12px;
+  background-color: #10d5c2;
+  background-position: center;
+}
+
+.main-content-top .range input:focus {
+  outline: none;
+}
+
+.main-content-top .total {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 9em;
+  max-width: 14em;
+  height: 2em;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-content-top .total .money {
+  font-size: 24px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  font-weight: 700;
+  color: #293356;
+  position: relative;
+  text-align: center;
+}
+
+.main-content-top .total .month-year {
+  width: 35%;
+  font-size: 12px;
+  color: #858fad;
+}
+
+.main-content-top .toggle-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 85%;
+  height: 2em;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-content-top .toggle-div .inpt-switch {
+  height: 1.2em;
+  width: 2.5em;
+  background-color: #cdd7ee;
+  border-radius: 25px;
+  position: relative;
+  padding: 4px;
+}
+
+.main-content-top .toggle-div .inpt-switch .ball {
+  height: .75em;
+  width: .75em;
+  border-radius: 50%;
+  position: relative;
+  background-color: #fff;
+}
+
+.main-content-top .toggle-div .inpt-switch .switched {
+  -webkit-transform: translateX(calc(2.5em - .75em - 8px)) !important;
+          transform: translateX(calc(2.5em - .75em - 8px)) !important;
+}
+
+.main-content-top .toggle-div span {
+  font-size: 10px;
+  font-weight: 500;
+  color: #858fad;
+  position: relative;
+}
+
+.main-content-top .toggle-div .yearly::after {
+  content: "-25%";
+  position: absolute;
+  background-color: rgba(255, 140, 102, 0.37);
+  right: -38px;
+  padding: 0 6px;
+  border-radius: 25px;
+  font-size: 9px;
+  color: #ff8c66;
+}
+
+.main-content-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  height: 8em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+.main-content-bottom .facts {
+  font-size: 10px;
+  font-weight: 500;
+  height: 7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #858fad;
+}
+
+.main-content-bottom .facts h4 {
+  margin-left: 8px;
+}
+
+.main-content-bottom .facts h4 img {
+  margin-right: 8px;
+}
+
+.main-content-bottom button {
+  width: 11em;
+  height: 3em;
+  font-size: 12px;
+  border: none;
+  font-weight: 300;
+  color: #fff;
+  background-color: #293356;
+  outline: none;
+  border-radius: 25px;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  background-image: url(../images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: 0 -10em;
+}
+/*# sourceMappingURL=style.css.map */

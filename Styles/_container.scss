@@ -1,0 +1,13 @@
+.container{
+    margin:2em auto;
+    width: 88%;
+    height: fit-content;
+    background-color: #fff;
+    box-shadow: 2px 1px 5px hsl(223, 50%, 87%);
+    border-radius: 8px ;
+    padding:20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 330px;
+}

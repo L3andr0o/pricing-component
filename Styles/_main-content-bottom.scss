@@ -1,0 +1,35 @@
+.main-content-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 8em;
+    align-items: center;
+    margin-top: 40px;
+    .facts{
+        font-size: 10px;
+        font-weight: 500;
+        height: 7em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: hsl(225, 20%, 60%);
+        h4{
+            margin-left: 8px;
+            img{
+                margin-right: 8px;
+            }
+        }
+    }
+    button{
+        width: 11em;
+        height: 3em;
+        font-size: 12px;
+        border: none;
+        font-weight: 300;
+        color: #fff;
+        background-color: hsl(227, 35%, 25%);
+        outline: none;
+        border-radius: 25px;
+    }
+}

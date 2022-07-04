@@ -1,0 +1,19 @@
+.header{
+    margin: 2em auto;
+    text-align: center;
+    background-image: url(../images/pattern-circles.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 7em;
+    padding: 20px 0;
+    h1{
+        font-size: 16px;
+        color: hsl(227, 35%, 25%);
+    }
+    p{
+        font-size: 11px;
+        color: hsl(225, 20%, 60%);
+        margin-top: 6px;
+    }
+}
